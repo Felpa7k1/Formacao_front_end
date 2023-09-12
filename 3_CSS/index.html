@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,30 @@
     <meta name="description" content="html e css">
     <meta name="keywords" content="HTML,CSS">
     <meta name="Author" content="Felipe Souza">
-    <link rel="stylesheet" href="/3_CSS/css/style.css">
+    <!--Extrernal CSS-->
+    <!--Cascading Style Sheets-->
+    <link rel="stylesheet" type="text/css" href="/3_CSS/css/styles.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/3_CSS/css/lists.css" media="screen">
     <title>CSS- Fundamentos</title>
     <!--3 - Internal CSS-->
     <style>
-        .para{
+        .para {
             color: palegreen;
             font-size: 25px;
             font-family: 'Courier New', Courier, monospace;
             font-weight: 800;
             font-style: italic;
         }
+
+        p {
+            color: red;
+        }
     </style>
+
     <!------------------->
 </head>
-<body style="background-color: cornflowerblue;">
+
+<body>
     <!--1- Inline CSS-->
     <h1 style="color:blue;">Mudar cor com o inline</h1>
     <h1 style="color:red;">Outro titulo</h1>
@@ -32,6 +42,24 @@
     <p class="para">Paragraph - Estilizado pelo Internal Css</p>
     <p class="para">Mais um</p>
     <p class="para">Mais outro</p>
-    <p class="para">Mais outro</p>
+
+    <!--4- Extrernal CSS-->
+    <h3>Meu titulo verde</h3>
+
+    <!--5 - Ordem do CSS-->
+    <p style="color:gold">Ordem do CSS</p>
+    <p>Ordem do CSS</p>
+
+    <!--6- multiplos CSS-->
+    <ul>
+        <li>Banana</li>
+        <li>Maçã</li>
+        <li>Abacate</li>
+    </ul>
+
+    <!--7-Desafio -->
+    <h4>Eu sou o título do desafio</h4>
+
 </body>
+
 </html>

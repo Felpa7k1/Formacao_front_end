@@ -9,9 +9,9 @@ h3{
 
 }
 
-p {
+/* p {
     color: blue;
-}
+} */
 
 h4{
     background-color: magenta;
@@ -89,5 +89,30 @@ h2{
 
 /* HSL*/
 .hsl{
-    color: hsl(10,80%,40%);
+    color: hsl(30,80%,40%);
+}
+.hsl-2{
+    color: hsl(110,45%,23%);
+}
+
+/*background-color*/
+.bg{
+    background-color: #000;
+    color: yellow;
+}
+.bg-2{
+    background-color: rgb(10,59,253);
+    color: #02b272;
+    border-bottom: none;
+}
+
+/*Opacity*/
+.bg-opacity{
+    background-color: green;
+    opacity:0.6;
+}
+
+.bg-opacity-2{
+    background-color: #999;
+    opacity:0.5;
 }

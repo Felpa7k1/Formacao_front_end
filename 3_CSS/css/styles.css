@@ -143,3 +143,16 @@ h2{
     background-position: center;
     background-size: cover;
 }
+/*altura e largura*/
+.height-width{
+    margin-top: 80px;
+    height: 200px;
+    width:100px;
+    background-color: red;
+}    
+.height-width-2{
+    margin-top: 100px;
+    height: 300px;
+    background-color: #333;
+
+}

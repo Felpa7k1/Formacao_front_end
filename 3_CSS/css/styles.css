@@ -116,3 +116,30 @@ h2{
     background-color: #999;
     opacity:0.5;
 }
+
+/*rgba com opacidade*/
+.rgba-opacity h1{
+    background-color:rgba(90,120,20,0.5);
+    color: #000;
+    
+}
+
+/*Imagem*/
+.bg-image{
+    background-image: url(/3_CSS/img/nature.jpg) ;
+    padding: 10px;
+    color: #fff;
+}
+
+/*Centralizando bg image*/
+.not-centered-bg,.centered-bg{
+    height: 400px;
+    width: 400px;
+    background-image: url(/3_CSS/img/bridge.jpg);
+
+}
+
+.centered-bg{
+    background-position: center;
+    background-size: cover;
+}

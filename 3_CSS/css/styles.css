@@ -156,3 +156,16 @@ h2{
     background-color: #333;
 
 }
+
+/*padding*/
+
+.without-padding,.padding{
+    text-align: center;
+    margin-top: 40px;
+    background-color: #111;
+    color: #fff;
+}
+
+.padding{
+    padding: 20px;
+}

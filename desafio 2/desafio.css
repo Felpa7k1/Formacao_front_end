@@ -1,0 +1,23 @@
+.box-model{
+    color: #fff;
+    background-color: #a23;
+    height: 420px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px 15px;
+
+
+}
+
+#titulo{
+    color: #222;
+    text-decoration: underline;
+    font-family: cursive;
+
+}
+
+.paragraph{
+    outline: 2px solid #555;
+    margin: 10px;
+    padding: 20px;
+}

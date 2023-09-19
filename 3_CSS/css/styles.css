@@ -461,3 +461,15 @@ h2{
     top: 50px;
     right: 100px;
 }
+/*sticky*/
+.sticky{
+    width: 100px;
+    height: 100px;
+    background-color: #02b520;
+    border: 1px solid #4f8;
+    margin-top: 120px;
+    position: sticky;
+    color: #fff;
+    top: 150px;
+    left: 100px;
+}

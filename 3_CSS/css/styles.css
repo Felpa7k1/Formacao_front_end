@@ -448,3 +448,16 @@ h2{
     bottom: 10px;
     right: 10px;
 }
+
+/*fixed*/
+.fixed{
+    width: 100px;
+    height: 100px;
+    background-color: #02b272;
+    border: 1px solid blue;
+    margin-top: 120px;
+    position: fixed;
+    color: #fff;
+    top: 50px;
+    right: 100px;
+}

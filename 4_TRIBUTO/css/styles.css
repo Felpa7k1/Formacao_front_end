@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Skranji:wght@400;700&display=swap');
+
+html{
+    font-family: Helvetica;
+    background-color: #ddd;
+}
+.container{
+    max-width: 1100px;
+    background-color: #FFF;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+}
+.bold{
+    font-weight: bold;
+
+}
+
+/*header*/
+.header{
+    text-align: center;
+}
+
+.header img{
+    margin: 20px;
+    
+}
+
+.header h1{
+    margin-top: 80px;
+    color: #a82424;    
+    font-family: 'Skranji', cursive;
+}
+
+
+.main-title{
+    font-size: 40px;
+}
+.main-paragraph{
+    font-style: italic;
+}
+
+/*imagem destaque*/
+.featured-image{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.featured-image img{
+    height: 480px;
+}
+
+/*Biografia*/
+
+.biography-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+/* Quotes*/
+
+.quotes-container{
+    background-color: #ddd;
+    padding: 30px;
+}
+.quotes-container blockquote{
+    font-weight: bold;
+    font-size: 30px;
+}
+.quotes-container p {
+    font-style: italic;
+}
+
+/*Curiosidades*/
+
+.curiosities-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top:1px dashed #ddd ;
+    border-bottom: 1px dashed #ddd;
+}
+
+.curiosities-container li{
+    height: 50px;
+}
+
+/*Imagem bold*/
+.img-bold{
+    text-align: center;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 40px;
+}
+
+.awards{
+    margin: 25px;
+    background-color: #fddd;
+    padding: 50px;
+}
+
+
+table{
+    padding: 25px;
+    margin: 20px;
+    border: 1px solid #000;
+}
+
+table tr{
+    padding: 10px;
+}
+
+td{
+    text-align: center;
+    padding: 30px;
+}

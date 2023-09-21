@@ -28,8 +28,7 @@ html{
 
 .header h1{
     margin-top: 80px;
-    color: #a82424;
-    
+    color: #a82424;    
     font-family: 'Skranji', cursive;
 }
 
@@ -92,4 +91,26 @@ html{
     font-weight: bold;
     background-color: #fff;
     padding: 40px;
+}
+
+.awards{
+    margin: 25px;
+    background-color: #fddd;
+    padding: 50px;
+}
+
+
+table{
+    padding: 25px;
+    margin: 20px;
+    border: 1px solid #000;
+}
+
+table tr{
+    padding: 10px;
+}
+
+td{
+    text-align: center;
+    padding: 30px;
 }

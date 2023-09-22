@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formulários HTML</title>
+    <title>Formulários</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -13,13 +13,18 @@
     <!-- 2 - atributos do formulário-->
     <form action="register.php" method="POST">
       <div>
-        <label for="nome">Nome</label>
-        <input type="text" name="name" placeholder="Digite o seu nome" />
+        <label for="name">Nome:</label>
+        <input type="text" name="name" placeholder="Digite o seu Nome" />
       </div>
       <!--3 - atributo name-->
       <div>
-        <label for="idade">Idade:</label>
-        <input type="number" name="age" />
+        <label for="age">Idade:</label>
+        <input type="text" name="age" required />
+      </div>
+      <!-- 4 - atributo label -->
+      <div>
+        <label for="occupation">Ocupação:</label>
+        <input type="text" name="occupation">
       </div>
     </form>
   </body>

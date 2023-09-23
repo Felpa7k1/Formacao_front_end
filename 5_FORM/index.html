@@ -14,18 +14,32 @@
     <form action="register.php" method="POST">
       <div>
         <label for="name">Nome:</label>
-        <input type="text" name="name" placeholder="Digite o seu Nome" />
+        <input type="text" name="name" placeholder="Digite o seu nome:" />
       </div>
       <!--3 - atributo name-->
       <div>
         <label for="age">Idade:</label>
-        <input type="text" name="age" required />
+        <input type="text" name="age" placeholder="Digite a sua idade:" required/>
       </div>
       <!-- 4 - atributo label -->
       <div>
         <label for="occupation">Ocupação:</label>
-        <input type="text" name="occupation">
+        <input type="text" name="occupation" placeholder="Digite a sua ocupação:">
       </div>
+       <!--6- select-->
+       <div>
+        <label for="Job">Selecione a sua profissão</label>
+        <select name="job" id="">
+          <option value="programador">Programador</option>
+          <option value="devops">DevOps</option>
+          <option value="tester">Tester/QA</option>
+        </select>
+       </div>
+
+      <!--5 - envio de form-->
+      <input type="submit" value="Enviar" >
+     
+
     </form>
   </body>
 </html>

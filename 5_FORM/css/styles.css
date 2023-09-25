@@ -13,3 +13,10 @@ div input, div label{
 .botao{
     margin: 30px;
 }
+
+.radio label, 
+.radio input, 
+.radio span{
+    display: inline-block;
+
+}

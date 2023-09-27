@@ -27,15 +27,17 @@ input{
     border: none;
     border-bottom: 1px solid #ccc;
     padding: 10px 0px;
-    width: 400px;
+    
 }
-textarea,
-input [type="text"],
-input [type="number"],
-input [type="date"],
-input [type="file"]{
-    width: 400px;
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+textarea {
+  width: 400px;
 }
+
 
 textarea{
     padding: 10px 5px;

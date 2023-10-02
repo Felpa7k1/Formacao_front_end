@@ -31,7 +31,7 @@ h3{
     display: none;
 }
 
-@media screen and (orientation: landscape) and (max-width:500px){
+@media screen and (orientation: landscape){
     h3{
         display: block;
     }

@@ -335,6 +335,10 @@ footer{
     .searchdomain-container{
         padding: 2rem 4rem;
     }
+
+    .navbar-container{
+        padding-left: 10px;
+    }
 }
 
 /*celulares*/
@@ -386,3 +390,4 @@ footer{
 
     }
 }
+

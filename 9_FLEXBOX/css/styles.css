@@ -6,5 +6,12 @@ body{
     display: flex;
     background-color: #ddd;
     margin-bottom: 20px;
+    
 }
+/*2-flex column*/
 
+.flex-column{
+    display: flex;
+    background-color: #ccc;
+    flex-direction: column-reverse;
+}

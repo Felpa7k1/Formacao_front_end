@@ -239,4 +239,26 @@ footer #footer-links{
     #footer-links{
         margin-bottom: 10px;
     }
+
+}    
+
+@media (max-width:940px){
+    body{
+        background-color: #FFF;
+    }
+
+    #form-container,
+    #banner-container{
+        width: 100%;
+        margin-top: 295px;
+        margin-left: 10px;
+    }
+
+    footer{
+        margin-top: 460px;
+    }
+
+    #banner-container{
+        margin-left: 100px;
+    }
 }

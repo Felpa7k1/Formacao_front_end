@@ -31,3 +31,11 @@
 .login-btn{
     margin-right: 40px;
 }
+
+.login-btn a{
+    background-color: #ecec53;
+    padding: 15px 10px;
+    border-radius:15px;
+    color: #000;
+}
+

@@ -36,7 +36,7 @@
 }
 
 .navbar-items a:hover{
-    color: #ecec53;
+    color: #fd9cc0;
 }
 
 .login-btn{
@@ -44,7 +44,7 @@
 }
 
 .login-btn a{
-    background-color: #ecec53;
+    background-color: #fd9cc0;
     padding: 15px 10px;
     border-radius:15px;
     color: #000;
@@ -53,4 +53,29 @@
 .login-btn a:hover{
    background-color: #fff;
    color: #000;
+}
+
+.main-banner{
+    background-image: url(../img/v882-aew-56-g.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+}
+
+.main-banner h1{
+    top: 80px;
+    position: relative;
+    text-align: center;
+    color: #fd9cc0;
+    font-weight: bolder;
+}
+
+.main-banner p{
+    top: 100px;
+    position: relative;
+    text-align: center;
+    color: #fd9cc0;
+    
 }

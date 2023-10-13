@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+.head{
+    height: 80px;
+    width: 100%;
+    background-color: #321b32;
+}
+
+.navbar-items{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-items li{
+    list-style: none;
+}
+
+.navbar-items a{
+    color: white;
+    line-height: 80px;
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.login-btn{
+    margin-right: 40px;
+}

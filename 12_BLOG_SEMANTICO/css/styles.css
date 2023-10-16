@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+h1{
+    margin:45px ;
+    text-decoration: none;
+    display: inline-block;
+  
+
+}
+
+.links{
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+.links a{
+    margin-right: 60px;
+    
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+
